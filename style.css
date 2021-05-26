@@ -1,0 +1,136 @@
+/* div{
+    background-color: lightblue;
+} */
+/* #lorem{
+    background-color: lightcoral;
+} */
+/* .ipsum{
+    background-color: lightgreen;
+}
+
+table, th , td {
+    border: solid 1px black; 
+    border-collapse: collapse;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #93AE9F;
+    height: 634px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 48sp;
+    font-family: sans-serif;
+}
+
+.navbar-section>.btn-group{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.navbar-section>{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group{
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    border: black solid 1px;
+    font-size: 1em;
+    width: 200px;
+    height: 50px;
+    font-family: sans-serif;
+    background-color: transparent;
+}
+.navbar-section{
+    background: linear-gradient(180deg, #93AE9F 50%, #EDF5E8 50%);
+}
+
+.profile-section{
+    background-color: #EDF5E8;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3%;
+}
+.profile-section>.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+.profile>.profile-img{
+    width: 40%;
+    height: auto;
+    padding-top: 5%;  
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+.profile>.profile-text{
+    width: 60%;
+    height: auto;
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 3%;
+}
+
+.background-section{
+    background-color: #EEEBE2;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3%;
+}
+
+.background>.back-img2{
+    width: 90%;
+    height: auto;
+    padding-top: 5%;  
+}
+img{
+    width: 80%;
+    height: auto;
+
+}
+.background>.background-text{
+    width: 80%;
+    height: auto;
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 3%;
+}
+.background-section>.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+}
+
+.footer{
+    background-color: #F9F6ED;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
